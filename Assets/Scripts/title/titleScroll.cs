@@ -1,23 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.UI;
 
-public class scroll : MonoBehaviour
+public class titleScroll : MonoBehaviour
 {
     private const float k_maxLength = 1f;
     private const string k_propName = "_MainTex";
 
-    public Sprite tyuugakusei;
-    public Sprite nirto;
-    public Sprite yakyuu;
-    public Sprite doctor;
-    public Sprite oibore;
-
-    public Image Luck;
-
-   [SerializeField]
+    [SerializeField]
     private Vector2 m_offsetSpeed;
 
     private Material m_material;
@@ -41,26 +32,7 @@ public class scroll : MonoBehaviour
         }
         m_offsetSpeed.x = GameManager.Instance.speed / 90;
 
-        if (GameManager.Instance.job == "中学生")
-        {
-            Luck.sprite = tyuugakusei;
-        }
-        if (GameManager.Instance.job == "ニート")
-        {
-            Luck.sprite = nirto;
-        }
-        if (GameManager.Instance.job == "野球選手")
-        {
-            Luck.sprite = yakyuu;
-        }
-        if (GameManager.Instance.job == "医者")
-        {
-            Luck.sprite = doctor;
-        }
-        if (GameManager.Instance.job == "老いぼれ")
-        {
-            Luck.sprite = oibore;
-        }
+        
     }
 
     private void OnDestroy()

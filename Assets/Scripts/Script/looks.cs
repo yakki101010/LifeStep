@@ -5,19 +5,23 @@ using UnityEngine.Analytics;
 
 public class looks : MonoBehaviour
 {
-    public Sprite tyuugakusei;
+    public string Lolita;//小学生
 
-    public Sprite nirto;
+    public string tyuugakusei;//中学生
 
-    public Sprite yakyuu;
+    public string nirto;//ニート
 
-    public Sprite isya;
+    public string yakyuu;//野球選手
 
-    public Sprite oibore;
+    public string doctor;//医者
 
-    public GameObject inai;
+    public string oibore;//おじいさん
 
-    public bool MyGender;
+    public GameObject inai;//
+
+    public bool MyGender;//性別
+
+    public string jobAnime = "";
     
 
 
@@ -27,10 +31,12 @@ public class looks : MonoBehaviour
     {
         GameManager.Instance.Gender = GorB.Instance.gorb;
 
-        if (GameManager.Instance.Gender == MyGender)
+        if (GameManager.Instance.Gender == MyGender)//男女判定
         {
             inai.SetActive(false);
         }
+
+        jobAnime = Lolita;
     }
 
     // Update is called once per frame
@@ -40,23 +46,27 @@ public class looks : MonoBehaviour
 
         if(GameManager.Instance.job == "中学生")
         {
-            this.GetComponent<SpriteRenderer>().sprite = tyuugakusei;
+            jobAnime = tyuugakusei;
         }
         if (GameManager.Instance.job == "ニート")
         {
-            this.GetComponent<SpriteRenderer>().sprite = nirto;
+            jobAnime = nirto;
         }
         if (GameManager.Instance.job == "野球選手")
         {
-            this.GetComponent<SpriteRenderer>().sprite = yakyuu;
+            jobAnime = yakyuu;
         }
         if (GameManager.Instance.job == "医者")
         {
-            this.GetComponent<SpriteRenderer>().sprite = isya;
+            jobAnime = doctor;
         }
         if (GameManager.Instance.job == "老いぼれ")
         {
-            this.GetComponent<SpriteRenderer>().sprite = oibore;
+            jobAnime = oibore;
         }
+    }
+    private void FixedUpdate()
+    {
+        this.GetComponent<Animator>().Play(jobAnime);
     }
 }
