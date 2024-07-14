@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class looks : MonoBehaviour
 {
@@ -14,16 +15,22 @@ public class looks : MonoBehaviour
 
     public Sprite oibore;
 
+    public GameObject inai;
 
-
-
+    public bool MyGender;
+    
 
 
     public GameObject tagetto;
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameManager.Instance.Gender = GorB.Instance.gorb;
+
+        if (GameManager.Instance.Gender == MyGender)
+        {
+            inai.SetActive(false);
+        }
     }
 
     // Update is called once per frame

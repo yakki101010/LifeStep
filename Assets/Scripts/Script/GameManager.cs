@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject cutIn;
 
+    public bool Gender;//–_‚Æ‹…‚ª—L‚é‚©–³‚¢‚©
 
     public float speed = 4;
 
@@ -78,6 +79,8 @@ public class GameManager : MonoBehaviour
 void Start()
     {
         Random.InitState(System.DateTime.Now.Millisecond);
+
+        
     }
 
     // Update is called once per frame

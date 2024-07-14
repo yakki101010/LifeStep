@@ -342,6 +342,157 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &236715324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236715328}
+  - component: {fileID: 236715327}
+  - component: {fileID: 236715326}
+  - component: {fileID: 236715325}
+  m_Layer: 8
+  m_Name: GirlLooks
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &236715325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236715324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c9264819b0e314c95c4c05da27d3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tyuugakusei: {fileID: 21300000, guid: 56a20f5880b578d42ae16c162e0158c0, type: 3}
+  nirto: {fileID: 21300000, guid: 0fb4db46edb25cc49a36773aa2e01364, type: 3}
+  yakyuu: {fileID: 21300000, guid: d388fef69c8f7874c9c693df715c981a, type: 3}
+  isya: {fileID: 21300000, guid: 56a20f5880b578d42ae16c162e0158c0, type: 3}
+  oibore: {fileID: 21300000, guid: f60b0217da806b441a64b6e6cfb54948, type: 3}
+  inai: {fileID: 285827073}
+  MyGender: 0
+  tagetto: {fileID: 516857231}
+--- !u!61 &236715326
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236715324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &236715327
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236715324}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 69bb1b0d08ae53d498f40407d378d11e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &236715328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236715324}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.2446923, y: -15.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &264870559
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,8 +525,8 @@ MonoBehaviour:
   asiba: {fileID: 2523409056411145528, guid: 237fb18a29bfc1f428dfc7aee9e064f7, type: 3}
   R: 0
   itme: 0
-  itme0: {fileID: 8356194884554138805, guid: 1b39dfe69bfde994f8ecaf4cf668f369, type: 3}
-  itme1: {fileID: 1401119705711422404, guid: 1e280d1f04b60864abbe8acb10fbbf7e, type: 3}
+  itme0: {fileID: 1401119705711422404, guid: 1e280d1f04b60864abbe8acb10fbbf7e, type: 3}
+  itme1: {fileID: 8356194884554138805, guid: 1b39dfe69bfde994f8ecaf4cf668f369, type: 3}
   itme2: {fileID: 3933584014764042445, guid: 6b8eb75f790d7314bb1bdb053dbea2d8, type: 3}
   itme3: {fileID: 5632719072467242316, guid: 7448947db8de8fa429efa80e0e36a0a9, type: 3}
 --- !u!4 &264870561
@@ -406,9 +557,9 @@ GameObject:
   - component: {fileID: 285827075}
   - component: {fileID: 285827074}
   m_Layer: 8
-  m_Name: Looks
+  m_Name: BoyLooks
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -429,6 +580,8 @@ MonoBehaviour:
   yakyuu: {fileID: 21300000, guid: d388fef69c8f7874c9c693df715c981a, type: 3}
   isya: {fileID: 21300000, guid: 56a20f5880b578d42ae16c162e0158c0, type: 3}
   oibore: {fileID: 21300000, guid: f60b0217da806b441a64b6e6cfb54948, type: 3}
+  inai: {fileID: 236715324}
+  MyGender: 1
   tagetto: {fileID: 516857231}
 --- !u!61 &285827075
 BoxCollider2D:
@@ -931,6 +1084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cutIn: {fileID: 1801514573}
+  Gender: 0
   speed: 4
   hp: 0
   ep: 0
@@ -1011,8 +1165,8 @@ MonoBehaviour:
   asiba: {fileID: 2523409056411145528, guid: 237fb18a29bfc1f428dfc7aee9e064f7, type: 3}
   R: 0
   itme: 0
-  itme0: {fileID: 8356194884554138805, guid: 1b39dfe69bfde994f8ecaf4cf668f369, type: 3}
-  itme1: {fileID: 1401119705711422404, guid: 1e280d1f04b60864abbe8acb10fbbf7e, type: 3}
+  itme0: {fileID: 1401119705711422404, guid: 1e280d1f04b60864abbe8acb10fbbf7e, type: 3}
+  itme1: {fileID: 8356194884554138805, guid: 1b39dfe69bfde994f8ecaf4cf668f369, type: 3}
   itme2: {fileID: 3933584014764042445, guid: 6b8eb75f790d7314bb1bdb053dbea2d8, type: 3}
   itme3: {fileID: 5632719072467242316, guid: 7448947db8de8fa429efa80e0e36a0a9, type: 3}
 --- !u!4 &981902094
@@ -1798,4 +1952,5 @@ SceneRoots:
   - {fileID: 981902094}
   - {fileID: 516857236}
   - {fileID: 285827077}
+  - {fileID: 236715328}
   - {fileID: 223564703}
