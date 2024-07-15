@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GBcursor : MonoBehaviour
 {
@@ -23,6 +24,19 @@ public class GBcursor : MonoBehaviour
        else
         {
             Select = Girl;
+        }
+       if(Input.GetKeyDown("right"))
+        {
+            GorB.Instance.gorb = true;
+        }
+       if(Input.GetKeyDown("left"))
+        {
+            GorB.Instance.gorb = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            SceneManager.LoadScene("SampleScene");
         }
     }
     private void FixedUpdate()
