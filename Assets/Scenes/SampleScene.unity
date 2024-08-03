@@ -375,10 +375,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Lolita: LoliataG
-  tyuugakusei: 
-  nirto: 
-  yakyuu: 
-  doctor: 
+  tyuugakusei: youthG
+  nirto: NG
+  yakyuu: YG
+  doctor: DG
   oibore: Old manG
   inai: {fileID: 285827073}
   MyGender: 0
@@ -601,10 +601,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Lolita: LolitaG
-  tyuugakusei: 
-  nirto: 
-  yakyuu: 
-  doctor: 
+  tyuugakusei: youthB
+  nirto: NB
+  yakyuu: YB
+  doctor: DB
   oibore: Old manB
   inai: {fileID: 236715324}
   MyGender: 1
